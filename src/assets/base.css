@@ -1,0 +1,159 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --vt-c-white: #ffffff;
+  --vt-c-white-soft: #f8f8f8;
+  --vt-c-white-mute: #f2f2f2;
+
+  --vt-c-black: #181818;
+  --vt-c-black-soft: #222222;
+  --vt-c-black-mute: #282828;
+
+  --vt-c-indigo: #2c3e50;
+
+  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
+  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
+  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
+  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+
+  --vt-c-text-light-1: var(--vt-c-indigo);
+  --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
+  --vt-c-text-dark-1: var(--vt-c-white);
+  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+}
+
+ /* semantic color variables for this project */
+:root {
+  --color-background: var(--vt-c-white);
+  --color-background-soft: var(--vt-c-white-soft);
+  --color-background-mute: var(--vt-c-white-mute);
+
+  --color-border: var(--vt-c-divider-light-2);
+  --color-border-hover: var(--vt-c-divider-light-1);
+
+  --color-heading: var(--vt-c-text-light-1);
+  --color-text: var(--vt-c-text-light-1);
+
+  --section-gap: 160px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--vt-c-black);
+    --color-background-soft: var(--vt-c-black-soft);
+    --color-background-mute: var(--vt-c-black-mute);
+
+    --color-border: var(--vt-c-divider-dark-2);
+    --color-border-hover: var(--vt-c-divider-dark-1);
+
+    --color-heading: var(--vt-c-text-dark-1);
+    --color-text: var(--vt-c-text-dark-2);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: normal;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+    
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-jost: "Jost";
+  --font-nunito-sans: "Nunito Sans";
+  --font-pt-sans: "PT Sans";
+
+  /* font sizes */
+  --font-size-xl: 1.25rem;
+  --font-size-sm: 0.88rem;
+  --font-size-xs: 0.75rem;
+  --font-size-mini: 0.94rem;
+  --font-size-2xs-5: 0.66rem;
+  --font-size-4xs: 0.56rem;
+  --font-size-xs-3: 0.71rem;
+  --font-size-5xs-9: 0.49rem;
+  --font-size-13xl: 2rem;
+  --font-size-45xl: 4rem;
+  --font-size-17xl: 2.25rem;
+  --font-size-13xl-7: 2.04rem;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray-100: #928686;
+  --color-gray-200: #102137;
+  --color-gray-300: #04181a;
+  --color-orangered: #ff3a14;
+  --color-darkgray-100: #a5a5a5;
+  --color-blueviolet: #6440fa;
+  --color-gold: #ffce31;
+  --color-gainsboro-100: #d9d9d9;
+  --color-darkslategray: #333;
+
+  /* Gaps */
+  --gap-12xs: 0.06rem;
+  --gap-mid: 1.06rem;
+  --gap-xl: 1.25rem;
+  --gap-3xs: 0.63rem;
+  --gap-32xl: 3.19rem;
+  --gap-8xl: 1.69rem;
+  --gap-20xl: 2.44rem;
+  --gap-11xs: 0.13rem;
+  --gap-5xs: 0.5rem;
+
+  /* Paddings */
+  --padding-32xl: 3.19rem;
+  --padding-xl: 1.25rem;
+  --padding-4xs: 0.56rem;
+  --padding-smi: 0.81rem;
+  --padding-lgi: 1.19rem;
+  --padding-25xl: 2.75rem;
+  --padding-5xl: 1.5rem;
+  --padding-40xl: 3.69rem;
+  --padding-sm: 0.88rem;
+  --padding-lg: 1.13rem;
+  --padding-2xs: 0.69rem;
+  --padding-23xl: 2.63rem;
+  --padding-xs: 0.75rem;
+  --padding-6xs: 0.44rem;
+  --padding-base: 1rem;
+
+  /* Border radiuses */
+  --br-5xs-5: 7.5px;
+  --br-3xs: 10px;
+  --br-56xl-3: 75.3px;
+}
