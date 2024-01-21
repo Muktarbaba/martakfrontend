@@ -57,7 +57,7 @@
             </div>
             <img class="menu-icon" alt="" src="../assets/image/menu.svg" />
 
-            <div class="register">Register</div>
+            <div class="register"><a href="../components/Register.vue">Register</a></div>
           </div>
         </div>
       </div>

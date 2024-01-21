@@ -161,9 +161,10 @@
     height: 3.13rem;
     overflow: hidden;
   }
-  .register {
+  .register, a {
     top: 5rem;
     left: 78.13rem;
+    color: #FFFFFF;
     font-size: var(--font-size-mini);
     text-decoration: underline;
   }

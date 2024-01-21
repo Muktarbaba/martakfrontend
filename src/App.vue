@@ -2,6 +2,8 @@
 //import HelloWorld from './components/HelloWorld.vue'
 //import TheWelcome from './components/TheWelcome.vue'
  import LandingPage from './components/LandingPage.vue'
+// import Register from './components/Register.vue'
+// import Login from './components/Login.vue'
 </script>
 
 <template> 
