@@ -8,7 +8,7 @@
             <div class="form-right">
                 <div class="form-right-container">
                     <div class="sign-up">Sign Up</div>
-                    <div class="login">Already have an account? <a href="">Login</a></div>
+                    <div class="login">Already have an account? <a href="/auth/login">Login</a></div>
                     <div class="row mt-3">
                         <div class="label mb-2">Full Name</div>
                         <div class="col">

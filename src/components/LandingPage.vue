@@ -57,7 +57,10 @@
             </div>
             <img class="menu-icon" alt="" src="../assets/image/menu.svg" />
 
-            <div class="register"><a href="../components/Register.vue">Register</a></div>
+            <div class="register">
+              <a href="/auth/login">Register</a>
+              <!-- <router-link to="/register">Register</router-link> -->
+            </div>
           </div>
         </div>
       </div>

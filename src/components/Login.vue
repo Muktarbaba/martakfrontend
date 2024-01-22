@@ -28,15 +28,15 @@
                                 <div class="accept">Remember me</div>
                             </div>
                             <div class="forgot">
-                                <div class="login"><a href="">Forgot Password?</a></div>
+                                <div class="login"><a href="/auth/forgot-password">Forgot Password?</a></div>
                             </div>
                         </div>
                         <div class="mt-3">  
-                           <button><a href="">Register</a></button>
+                           <button><a href="">Login</a></button>
                         </div>
 
                         <div class="mt-4">
-                            <div class="new-here"><a href="">New here Sign up</a></div>
+                            <div class="new-here"><a href="/auth/register">New here Sign up</a></div>
                         </div>
                     </div>
                 </div>
